@@ -1,0 +1,17 @@
+def gcd(m, n):
+    if n == 0:
+        return m
+    else:
+        return gcd(n, m % n)
+print(type(gcd))       
+class Person:
+     def __init__(self, name, age):
+         self.name = name
+         self.age = age
+
+    def addAge(self, num=1):
+        self.age += num
+
+john = Person("John", 18)
+john.addAge(5)
+Person.addAge(john, 5)
