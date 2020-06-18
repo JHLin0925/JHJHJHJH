@@ -1,0 +1,6 @@
+input('\n\n')
+a=int(input('input'))
+a=a+22
+print(a)
+b=str(input())
+print(b+"hello")
